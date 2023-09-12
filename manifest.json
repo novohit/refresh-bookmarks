@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Refresh Bookmarks",
+    "version": "1.0",
+    "description": "自动刷新所有书签 https://github.com/novohit/refresh-bookmarks",
+    "author": "novo",
+	"permissions": ["tabs", "bookmarks"],
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+	"background": {
+        "service_worker": "background.js"
+    }
+}
